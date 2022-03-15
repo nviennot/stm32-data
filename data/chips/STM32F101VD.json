@@ -1219,6 +1219,11 @@
                 {
                     "name": "SPI1",
                     "address": 1073819648,
+                    "registers": {
+                        "kind": "spi",
+                        "version": "f1",
+                        "block": "SPI"
+                    },
                     "rcc": {
                         "clock": "APB2",
                         "enable": {
@@ -1284,6 +1289,11 @@
                 {
                     "name": "SPI2",
                     "address": 1073756160,
+                    "registers": {
+                        "kind": "spi",
+                        "version": "f1",
+                        "block": "SPI"
+                    },
                     "rcc": {
                         "clock": "APB1",
                         "enable": {
@@ -1333,6 +1343,11 @@
                 {
                     "name": "SPI3",
                     "address": 1073757184,
+                    "registers": {
+                        "kind": "spi",
+                        "version": "f1",
+                        "block": "SPI"
+                    },
                     "rcc": {
                         "clock": "APB1",
                         "enable": {
@@ -1388,7 +1403,7 @@
                         "block": "TIM_GP16"
                     },
                     "rcc": {
-                        "clock": "APB1",
+                        "clock": "APB1_TIM",
                         "enable": {
                             "register": "APB1ENR",
                             "field": "TIM2EN"
@@ -1494,7 +1509,7 @@
                         "block": "TIM_GP16"
                     },
                     "rcc": {
-                        "clock": "APB1",
+                        "clock": "APB1_TIM",
                         "enable": {
                             "register": "APB1ENR",
                             "field": "TIM3EN"
@@ -1604,7 +1619,7 @@
                         "block": "TIM_GP16"
                     },
                     "rcc": {
-                        "clock": "APB1",
+                        "clock": "APB1_TIM",
                         "enable": {
                             "register": "APB1ENR",
                             "field": "TIM4EN"
@@ -1702,7 +1717,7 @@
                         "block": "TIM_GP16"
                     },
                     "rcc": {
-                        "clock": "APB1",
+                        "clock": "APB1_TIM",
                         "enable": {
                             "register": "APB1ENR",
                             "field": "TIM5EN"
@@ -1788,7 +1803,7 @@
                         "block": "TIM_GP16"
                     },
                     "rcc": {
-                        "clock": "APB1",
+                        "clock": "APB1_TIM",
                         "enable": {
                             "register": "APB1ENR",
                             "field": "TIM6EN"
@@ -1836,7 +1851,7 @@
                         "block": "TIM_GP16"
                     },
                     "rcc": {
-                        "clock": "APB1",
+                        "clock": "APB1_TIM",
                         "enable": {
                             "register": "APB1ENR",
                             "field": "TIM7EN"
