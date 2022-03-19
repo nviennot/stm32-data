@@ -73,6 +73,10 @@ fieldset/AHBENR:
       description: CRC clock enable
       bit_offset: 6
       bit_size: 1
+    - name: FSMCEN
+      description: FSMC clock enable
+      bit_offset: 8
+      bit_size: 1
     - name: USB_OTG_FSEN
       description: USB OTG FS clock enable
       bit_offset: 12
